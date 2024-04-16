@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project]
+name = "motorcycle_mpc"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.18.1",
+    "matplotlib>=3.3.1",
+    "casadi>=3.5.1",
+    "pybullet",
+    "argparse",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pysen",
+    "black",
+    "flake8",
+    "isort",
+    "mypy",
+]
