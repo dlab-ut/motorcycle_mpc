@@ -1,7 +1,8 @@
 # motorcycle_mpc
 motorcycle control by model predictive control
 
-![](media/demo.mp4)
+https://github.com/dlab-ut/motorcycle_mpc/assets/38370926/d8160356-b229-4a43-9383-0597d36d3659
+
 
 ## installation
 Recommended to run under virtual environment (venv or docker)
